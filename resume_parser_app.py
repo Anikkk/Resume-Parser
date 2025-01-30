@@ -16,6 +16,7 @@ def extract_text_from_pdf(file):
         return text
     except Exception as e:
         st.error(f"Failed to extract text from PDF: {e}")
+        print("HI Aniket")
         return ""
 
 # Function to parse the resume using DeepSeek model
